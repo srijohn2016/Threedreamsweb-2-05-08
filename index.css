@@ -1,0 +1,261 @@
+header{
+    background-image: url('img/bg\ img/home bg3.jpg');
+    height: 100vh;  
+    min-height: 400px;
+    width: 100%;
+    background-size: cover;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+    position: relative; 
+  
+ }
+ .logo-name{
+ 
+  position: relative;
+  color:red;
+  text-align:center;
+  padding:140px 0px;
+ 
+  h5{
+    color: black;
+  }
+
+ }
+ .img{
+  position:relative;
+  padding-top:120px;
+  bottom:-15%;
+ }
+  
+
+.navbar-light .navbar-nav a{
+     color:black;
+    font-size: 20px;
+    text-align: start;
+    justify-content: space-between;
+}
+.navbar-light .nav-brand{
+    color:white;
+    font-weight: 300;
+    text-align: center;
+    justify-content: space-between;
+}
+.navbar-nav{
+    display:inline-flex;
+    
+    align-items:center;
+    /* margin:auto; */
+    justify-content:space-between;
+ }
+ 
+ .navbar-nav a{
+    list-style: none;
+    padding:5px 10px;
+    position: relative;
+    left: 0 10%;  
+ }
+
+ .navbar-nav a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+} 
+
+ .nav-item a:hover,
+ .nav-item a .active{
+   color:black;
+}
+
+
+.bg-dark{
+    background-color: whitesmoke !important;
+}
+a,i{
+  padding-inline-start:6px;
+  margin:6px;
+}
+
+a.active{
+  /* background:orange; */
+  border-radius:10px;
+  background-color: orange;
+  display: inline-block;
+  text-align: center;
+}
+
+#login{
+  border-radius:10px;
+  margin: auto;
+  padding: 5px 15px;
+  background-color:orange;
+  display: inline-block;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+#signup{
+  border-radius:10px;
+  margin-inline-start:10px;
+  padding: 5px 15px;
+  background-color:orange;
+  display: inline-block;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+.row-1{
+   margin-inline-start: auto;
+}
+button a{
+  text-decoration: none;
+}
+
+
+
+
+#contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #contact-details .details{
+    width: 40%;
+  }
+ 
+  #contact-details  .details span,
+  #form-details form span{
+    font-size: 12px;
+  }
+  #contact-details .details h2,
+  #form-details form h2{
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0  ;
+  }
+  #contact-details  .details h3{
+    font-size: 16px;
+    padding-bottom:15px;
+  }
+  #contact-details  .details li{
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+  }
+  #contact-details  .details li i{
+    font: 14px;
+    padding-left: 22px;
+  }
+  #contact-details  .details li p{
+    margin: 0;
+    font-size: 14px;
+  }
+ 
+  #contact-details .map{
+    width: 55%;
+    height: 400px;
+  }
+ 
+  #contact-details .map iframe{
+    width: 100%;
+    height: 100%;
+  }
+ 
+  #form-details{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 80px;border: 1px solid #e1e1e1;
+  }
+ 
+ 
+  #form-details form{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+ 
+  #form-details form input,
+  #form-details form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid  #465b52;
+ }
+ #form-details form button{
+    background-color:rgba(10, 165, 75, 0.774);
+    color: #fff;
+ }
+ #form-details .people div{
+         padding-bottom: 25px;
+         display: flex;
+         align-items: flex-start;
+ }
+ #form-details .people div img{
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    margin-right: 15px;
+ }
+ #form-details .people div p{
+    margin: 0;
+    font-size: 13px;
+    line-height:25px;
+ }
+ #form-details .people div span{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+ }
+ 
+
+/* about page */
+
+.about-bg{
+  background-image: url('img/bg\ img/about img2.png');
+
+  height:44vh;  
+  min-height:270px;
+  background-position: 7%;
+  background-size: cover;
+ 
+
+
+  /* object-fit: cover; */
+}
+
+
+/* Services Page */
+
+.services-bg{
+  background-image: url('img/bg\ img/services img9.jpg');
+  height:50vh;
+  min-height:345px;
+  background-size: cover;
+}
+
+/* Contact Page */
+.contact-bg{
+  background-image: url('img/bg\ img/contact 2.jpg');
+  height:44vh;  
+  min-height:270px;
+  background-position: 7%;
+  background-size: cover;
+
+}
+
+@media only screen and (max-width:600px){
+    .navbar-collapse{
+        background: white;
+        
+    }
+
+
+}
+
